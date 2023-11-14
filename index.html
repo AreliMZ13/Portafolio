@@ -1,0 +1,367 @@
+    <!DOCTYPE html>
+    <html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+        />
+        <link rel="stylesheet" href="./estilo.css">
+        <title>INT PORTAFOLIO</title>
+    </head>
+
+    <body>
+        <!-- SECCION I N I C I O -->
+        <section id="inicio">
+            <div class="contenido">
+                <header>
+                    <div class="contenido-header">
+                        <div class="logo">
+                            <img src="./img/SFondo3.png" alt="Logo">
+                        </div>
+                        <nav id="nav" class="">
+                            <ul id="links">
+                                <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                                <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                                <li><a href="#curriculum" onclick="seleccionar(this)">TRAYECTORIA</a></li>
+                                <li><a href="#skills" onclick="seleccionar(this)">HABILIDADES</a></li>
+                                <li><a href="#proyectos" onclick="seleccionar(this)">PROYECTOS</a></li>
+                                <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                            </ul>
+                        </nav>
+
+                        <!-- Icono del menu responsivo -->
+                        <div id="icono-nav" onclick="responsiveMenu()">
+                            <i class="fa-solid fa-bars"></i>
+                        </div>
+
+                    </div>
+                </header>
+
+
+                <div class="presentacion">
+                    <p class="bienvenida">Bienvenid@</p>
+                    <h2>Soy <span>Areli Moreno</span>, Desarrolladora Web</h2>
+                    <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, </p>
+                    <a href="#portfolio">Ir a Proyectos</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCION S O B R E M I -->
+        <section id="sobremi">
+            <div class="contenedor-foto">
+                <img src="img/Are5.jpeg" alt="">
+            </div>
+            <div class="sobremi">
+                <h2>SOBRE MI</h2>
+                <h2>Hola, Soy <span>Areli Moreno</span> </h2>
+                <h3>Desarrolladora Web</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur reprehenderit 
+                    voluptatibus blanditiis nulla adipisci iste fuga expedita, ea exercitationem dicta,
+                     similique rem, atque soluta recusandae ipsam autem. Sapiente, quo ducimus?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro nam a beatae natus.</p>
+                <a href="#">Descargar CV</a>
+            </div>
+
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+            </div>
+        </section>
+
+    <!-- SECCION T R A Y E C T O R I A-->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>TRAYECTORIA</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Picologia</h4>
+                        <span class="casa">UNAM FES Zaragoza</span>
+                        <span class="fecha">2018 - 2022</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, 
+                            tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus 
+                            veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, 
+                            veritatis?</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Desarrolladora Java Jr</h4>
+                        <span class="casa">Generation</span>
+                        <span class="fecha">Septiembre 2023 - Diciembre 2023</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                   
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Front Developer</h4>
+                        <span class="casa">Nombre de Compañía</span>
+                        <span class="fecha">2005 - 2008</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Front Developer</h4>
+                        <span class="casa">Nombre de Compañía</span>
+                        <span class="fecha">2005 - 2008</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- SECCION H A B I L I D A D E S-->
+
+        <section class="skills" id="skills">
+            <div class="contenido-seccion">
+                <h2>HABILIDADES</h2>
+                <div class="fila">
+                    <!-- Technical Skill -->
+                    <div class="col">
+                        <h3>Lenguajes</h3>
+                        <div class="skill">
+                            <span>Javascript</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>75%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>HTML & CSS</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>89%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Photoshop</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>95%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Wordpress</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>81%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Drupa</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>55%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Professional Skills -->
+                    <div class="col">
+                        <h3>herramientas</h3>
+                        <div class="skill">
+                            <span>Comunicación</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>80%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Trabajo en Equipo</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>70%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Creatividad</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>99%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Dedicación</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>65%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <span>Proyect Management</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>94%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCION PORTAFOLIO -->
+        <section id="proyectos">
+            <div class="contenido">
+                <h2>MIS PROYECTOS</h2>
+                <div class="fila">
+                    <div class="col">
+                        <div class="numero-curso">
+                            .01
+                        </div>
+                        <h3 class="titulo-curso">
+                            PROYECTO <span class="resaltado">01</span>
+                        </h3>
+                        <hr>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio, porro sequi dolor adipisci illum necessitatibus ratione.</p>
+                        <button class="btn-primary">LEER MÁS</button>
+                    </div>
+                    <div class="col">
+                        <div class="numero-curso">
+                            .02
+                        </div>
+                        <h3 class="titulo-curso">
+                            PROYECTO <span class="resaltado">02</span>
+                        </h3>
+                        <hr>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio, porro sequi dolor adipisci illum necessitatibus ratione.</p>
+                        <button class="btn-primary">LEER MÁS</button>
+                    </div>
+                    <div class="col">
+                        <div class="numero-curso">
+                            .03
+                        </div>
+                        <h3 class="titulo-curso">
+                            PROYECTO <span class="resaltado">03</span>
+                        </h3>
+                        <hr>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio, porro sequi dolor adipisci illum necessitatibus ratione.</p>
+                        <button class="btn-primary">LEER MÁS</button>
+                    </div>
+                    <div class="col">
+                        <div class="numero-curso">
+                            .04
+                        </div>
+                        <h3 class="titulo-curso">
+                            PROYECTO <span class="resaltado">04</span>
+                        </h3>
+                        <hr>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio, porro sequi dolor adipisci illum necessitatibus ratione.</p>
+                        <button class="btn-primary">LEER MÁS</button>
+                    </div>
+    
+                </div>
+                <div class="fila">
+                    <div class="col">
+                        <div class="numero-curso">
+                            .05
+                        </div>
+                        <h3 class="titulo-curso">
+                            PROYECTO <span class="resaltado">05</span>
+                        </h3>
+                        <hr>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio, porro sequi dolor adipisci illum necessitatibus ratione.</p>
+                        <button class="btn-primary">LEER MÁS</button>
+                    </div>
+                    <div class="col">
+                        <div class="numero-curso">
+                            .06
+                        </div>
+                        <h3 class="titulo-curso">
+                            PROYECTO <span class="resaltado">06</span>
+                        </h3>
+                        <hr>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio, porro sequi dolor adipisci illum necessitatibus ratione.</p>
+                        <button class="btn-primary">LEER MÁS</button>
+                    </div>
+                    <div class="col">
+                        <div class="numero-curso">
+                            .07
+                        </div>
+                        <h3 class="titulo-curso">
+                            PROYECTO <span class="resaltado">07</span>
+                        </h3>
+                        <hr>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio, porro sequi dolor adipisci illum necessitatibus ratione.</p>
+                        <button class="btn-primary">LEER MÁS</button>
+                    </div>
+                    <div class="col">
+                        <div class="numero-curso">
+                            .08
+                        </div>
+                        <h3 class="titulo-curso">
+                            PROYECTO <span class="resaltado">08</span>
+                        </h3>
+                        <hr>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio, porro sequi dolor adipisci illum necessitatibus ratione.</p>
+                        <button class="btn-primary">LEER MÁS</button>
+                    </div>
+    
+                </div>
+            </div>
+        </section>
+    
+
+        <!-- SECCTION C O N T A C T O -->
+        <section id="contacto">
+            <h3 class="titulo-seccion">Contactanos ahora</h3>
+            <div class="contenedor-form">
+                <form action="">
+                    <div class="fila mitad">
+                        <input type="text" placeholder="Nombre Completo *" class="input-mitad">
+                        <input type="email" placeholder="Dirección de Email" class="input-mitad">
+                    </div>
+                    <div class="fila">
+                        <input type="text" placeholder="Tema..." class="input-full">
+                    </div>
+                    <div class="fila">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje..." class="input-full"></textarea>
+                    </div>
+
+                    <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+                </form>
+            </div>
+        </section>
+
+        <!-- SECCION FOOTER -->
+        <footer>
+            <p>Todos los derechos reservados - 2023</p>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+            </div>
+
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+
+    </html>
